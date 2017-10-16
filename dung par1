@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a = 5;
+    int b = 6;
+    int tong = a + b;
+    int hieu = a - b;
+    int tich = a * b;
+    int thuong = a / b;
+    int sodu = a % b;
+    printf ("tong cua %d + %d = %d /n", a, b, tong);
+    printf ("hieu cua %d - %d = %d /n", a, b, hieu);
+    printf ("tich cua %d * %d = %d /n", a, b, tich);
+    printf ("thuong cua %d / %d = %d /n", a, b, thuong);
+    printf ("so du cua %d % %d = %d /n", a, b, sodu);
+    printf("Hello world!\n");
+    return 0;
+}
